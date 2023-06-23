@@ -73,6 +73,7 @@ class ActionPlayRPSLS(Action):
         }
 
         if winning_choice in rules and losing_choice in rules[winning_choice]:
-            return f"{winning_choice.capitalize()} {rules[winning_choice][losing_choice]} {losing_choice}."
+            # return f"{winning_choice.capitalize()} {rules[winning_choice][losing_choice]} {losing_choice}."
+            return f"{rules[winning_choice][losing_choice]} {losing_choice}."
 
         return ""
