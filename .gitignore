@@ -1,0 +1,23 @@
+.idea
+.vscode
+
+# Rasa-specific files and directories
+__pycache__/
+models/
+*.tar.gz
+*.log
+
+# Rasa virtual environment
+results
+venv
+
+# Rasa actions server logs
+actions/out.log
+
+# Other temporary or generated files
+*.pyc
+.rasa
+*.pyo
+*.pyd
+*.swp
+.DS_Store

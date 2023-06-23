@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+  - story: play rock paper scissors lizard spock
+    steps:
+      - intent: greet
+      - action: utter_play
+      - intent: inform
+      - action: action_play_rpsls
+      - action: utter_play_again
